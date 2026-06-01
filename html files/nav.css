@@ -1,0 +1,16 @@
+.nav{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:10px 20px;
+    background-color: bisque;
+    height:30px;
+    line-height: 30px;
+    margin-top:20px;
+}
+.nav a{
+    color:red; 
+    border:1px solid gray;
+    padding:6px;
+    
+}

@@ -1,0 +1,16 @@
+.header{
+    margin :-7px;
+} 
+.header{
+    background-color: blue;
+    display:flex;
+     
+}
+img{
+    width: 100px;
+    border:3px  ;     
+    border-radius:30px;
+    margin-top:10px;
+}
+
+

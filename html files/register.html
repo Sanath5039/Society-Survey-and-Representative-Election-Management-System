@@ -4,38 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="register.css">
 </head>
 <body>
+
+    <div class="header">
+        <img src="" atl="website logo">
+        <h1>
+         Society Survey and Representative Election Management System
+        </h1>
+    </div>
+    <div class="nav">
+       <nav>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="survey.html">Survey</a>
+        <a href="polls.html">Polls</a>
+        <a href="vote.html">Vote</a>
+        <a href="candidates.html">Candidates</a>
+        <a href="results.html">Results</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+       </nav>
+    </div>
+    <div class="container">
     <form action="dashboard.html">
-        <label for="FullName">Full Name</label>
-        <input type="text" id="FullName" required>
-        <br>
-        <label for="House">Flat / House Number</label>
-        <input id="House" type="text" required>
-        <br>
-        <label for="Email">Email</label>
-        <input type="email" id="Email" required>
-        <br>
-        <label for="Number">Mobile Number :</label>
-        <input id="Number" type="text" required>
-        <br>
-        <label for="pwd">Password</label>
-        <input type="password" id="pwd" required>
-        <br>
-        <label for="confpwd">Confirm Password</label>
-        <input type="password" id="confpwd" required>
-        <br>
-        <label for="ResidentType">ResidentType</label>
-        <label>
-            <input type="radio" value="Owner" name="ResidentType" required>
-            Owner
-        </label>
-        <label>
-            <input type="radio" value="Tenant" name="ResidentType" required>
-            Tenant
-        </label>
-        <br>
-        <button type="submit">Register</button>
+        <div class="input">
+
+            <label for="FullName">Full Name</label>
+            <input type="text" id="FullName" required>
+            <br>
+        </div>
+        <div class="input">
+
+            <label for="House">Flat / House Number</label>
+            <input id="House" type="text" required>
+            <br>
+        </div>
+        <div class="input">
+
+            <label for="Email">Email</label>
+            <input type="email" id="Email" required>
+            <br>
+        </div>
+        <div class="input">
+
+            <label for="Number">Mobile Number :</label>
+            <input id="Number" type="text" required>
+            <br>
+        </div>
+        <div class="input">
+
+            <label for="pwd">Password</label>
+            <input type="password" id="pwd" required>
+            <br>
+        </div>
+        <div class="input">
+
+            <label for="confpwd">Confirm Password</label>
+            <input type="password" id="confpwd" required>
+            <br>
+        </div>
+        <div class="input">
+
+            <label for="ResidentType">ResidentType</label>
+            <div class="radio">
+
+                <label>
+                    <input type="radio" value="Owner" name="ResidentType" required>
+                    Owner
+                </label>
+            </div>
+            <div class="radio">
+
+                <label>
+                    <input type="radio" value="Tenant" name="ResidentType" required>
+                    Tenant
+                </label>
+                <br>
+            </div>
+        </div>
+        <div class="input" id="button">
+
+            <button type="submit">Register</button>
+        </div>
     </form>
+</div>
 </body>
 </html>
